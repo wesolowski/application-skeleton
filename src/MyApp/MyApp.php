@@ -4,7 +4,7 @@ namespace MyApp;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
-class MyApp
+class MyApp implements App
 {
     /**
      * @var ContainerInterface
