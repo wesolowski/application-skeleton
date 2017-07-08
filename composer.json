@@ -1,0 +1,16 @@
+{
+    "require": {
+        "symfony/var-dumper": "3.*",
+        "monolog/monolog": "^1.22",
+        "symfony/console": "^3.2",
+        "symfony/finder": "^3.3",
+        "symfony/dependency-injection": "^3.3",
+        "symfony/config": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/MyApp",
+            "Tests\\": "tests/"
+        }
+    }
+}

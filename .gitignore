@@ -1,0 +1,10 @@
+/.idea
+composer.phar
+vendor/
+/app/src/NxsApp/config.php
+*.bak
+
+/app/files/get_articles/archiv/*
+!/app/files/get_articles/archiv/.gitkeep
+/app/files/get_articles/prepared/*
+!/app/files/get_articles/prepared/.gitkeep

@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\Application;
+
+require_once __DIR__ . '/../bootstrap.php';
+
+$app = new Application('My-App');
+
+$app->addCommands([
+
+]);
+
+$app->run();
