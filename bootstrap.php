@@ -26,7 +26,8 @@ foreach ($finder as $file) {
     $loader->load($file->getRealPath());
 }
 
-
+$container->addCompilerPass(new \Symfony\Component\Console\DependencyInjection\AddConsoleCommandPass());
+$container->compile();
 
 // Create global Function
 
